@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		57483A0320E615FD009EF388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57483A0220E615FD009EF388 /* AppDelegate.swift */; };
-		57483A0520E615FD009EF388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57483A0420E615FD009EF388 /* ViewController.swift */; };
+		57483A0520E615FD009EF388 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57483A0420E615FD009EF388 /* MapVC.swift */; };
 		57483A0820E615FD009EF388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57483A0620E615FD009EF388 /* Main.storyboard */; };
 		57483A0A20E615FF009EF388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57483A0920E615FF009EF388 /* Assets.xcassets */; };
 		57483A0D20E615FF009EF388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57483A0B20E615FF009EF388 /* LaunchScreen.storyboard */; };
+		577048E420E62B440060B85B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577048E320E62B440060B85B /* Place.swift */; };
+		577048E620E6303D0060B85B /* PlaceListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577048E520E6303D0060B85B /* PlaceListVC.swift */; };
+		577048E820E633150060B85B /* PlaceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577048E720E633150060B85B /* PlaceListTableViewCell.swift */; };
+		5771A38D20E63B0D00CA3550 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771A38C20E63B0D00CA3550 /* Extensions.swift */; };
+		5771A38F20E656A700CA3550 /* PlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771A38E20E656A700CA3550 /* PlaceVC.swift */; };
+		5771A39120E65CF000CA3550 /* PlaceReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771A39020E65CF000CA3550 /* PlaceReviewTableViewCell.swift */; };
+		A52047CD6E87C4F333AD343F /* Pods_GeoPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBA166F72177A8B5E26B6A1 /* Pods_GeoPlaces.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445FAA844203301F656AF69E /* Pods-GeoPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPlaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoPlaces/Pods-GeoPlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		4DBA166F72177A8B5E26B6A1 /* Pods_GeoPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		574839FF20E615FD009EF388 /* GeoPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57483A0220E615FD009EF388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57483A0420E615FD009EF388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57483A0420E615FD009EF388 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		57483A0720E615FD009EF388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57483A0920E615FF009EF388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57483A0C20E615FF009EF388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57483A0E20E615FF009EF388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577048E320E62B440060B85B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		577048E520E6303D0060B85B /* PlaceListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListVC.swift; sourceTree = "<group>"; };
+		577048E720E633150060B85B /* PlaceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListTableViewCell.swift; sourceTree = "<group>"; };
+		5771A38C20E63B0D00CA3550 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5771A38E20E656A700CA3550 /* PlaceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceVC.swift; sourceTree = "<group>"; };
+		5771A39020E65CF000CA3550 /* PlaceReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceReviewTableViewCell.swift; sourceTree = "<group>"; };
+		A2A99D12E8DB2132AEEE48C7 /* Pods-GeoPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoPlaces/Pods-GeoPlaces.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52047CD6E87C4F333AD343F /* Pods_GeoPlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4807434BA203709DB78B917D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				445FAA844203301F656AF69E /* Pods-GeoPlaces.debug.xcconfig */,
+				A2A99D12E8DB2132AEEE48C7 /* Pods-GeoPlaces.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		574839F620E615FD009EF388 = {
 			isa = PBXGroup;
 			children = (
 				57483A0120E615FD009EF388 /* GeoPlaces */,
 				57483A0020E615FD009EF388 /* Products */,
+				4807434BA203709DB78B917D /* Pods */,
+				8E647205FC91F8F15084F68F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,52 @@
 		57483A0120E615FD009EF388 /* GeoPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				5771A38B20E63AFF00CA3550 /* Classes */,
+				577048E120E62B020060B85B /* Model */,
+				577048E220E62B0F0060B85B /* UI */,
 				57483A0220E615FD009EF388 /* AppDelegate.swift */,
-				57483A0420E615FD009EF388 /* ViewController.swift */,
-				57483A0620E615FD009EF388 /* Main.storyboard */,
 				57483A0920E615FF009EF388 /* Assets.xcassets */,
 				57483A0B20E615FF009EF388 /* LaunchScreen.storyboard */,
 				57483A0E20E615FF009EF388 /* Info.plist */,
 			);
 			path = GeoPlaces;
+			sourceTree = "<group>";
+		};
+		577048E120E62B020060B85B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				577048E320E62B440060B85B /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		577048E220E62B0F0060B85B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				57483A0420E615FD009EF388 /* MapVC.swift */,
+				577048E520E6303D0060B85B /* PlaceListVC.swift */,
+				577048E720E633150060B85B /* PlaceListTableViewCell.swift */,
+				5771A38E20E656A700CA3550 /* PlaceVC.swift */,
+				5771A39020E65CF000CA3550 /* PlaceReviewTableViewCell.swift */,
+				57483A0620E615FD009EF388 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5771A38B20E63AFF00CA3550 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5771A38C20E63B0D00CA3550 /* Extensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8E647205FC91F8F15084F68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DBA166F72177A8B5E26B6A1 /* Pods_GeoPlaces.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57483A1120E615FF009EF388 /* Build configuration list for PBXNativeTarget "GeoPlaces" */;
 			buildPhases = (
+				01CE5F8169D64F6484592114 /* [CP] Check Pods Manifest.lock */,
 				574839FB20E615FD009EF388 /* Sources */,
 				574839FC20E615FD009EF388 /* Frameworks */,
 				574839FD20E615FD009EF388 /* Resources */,
+				765217B1684E2B4329AD80D8 /* [CP] Embed Pods Frameworks */,
+				B42EFEC25297CA1EC4C40C55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +199,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01CE5F8169D64F6484592114 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765217B1684E2B4329AD80D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GeoPlaces/Pods-GeoPlaces-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworkActivityLogger/AFNetworkActivityLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworkActivityLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoPlaces/Pods-GeoPlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42EFEC25297CA1EC4C40C55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GeoPlaces/Pods-GeoPlaces-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoPlaces/Pods-GeoPlaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		574839FB20E615FD009EF388 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57483A0520E615FD009EF388 /* ViewController.swift in Sources */,
+				577048E420E62B440060B85B /* Place.swift in Sources */,
+				5771A38D20E63B0D00CA3550 /* Extensions.swift in Sources */,
+				57483A0520E615FD009EF388 /* MapVC.swift in Sources */,
+				5771A39120E65CF000CA3550 /* PlaceReviewTableViewCell.swift in Sources */,
+				577048E620E6303D0060B85B /* PlaceListVC.swift in Sources */,
+				577048E820E633150060B85B /* PlaceListTableViewCell.swift in Sources */,
 				57483A0320E615FD009EF388 /* AppDelegate.swift in Sources */,
+				5771A38F20E656A700CA3550 /* PlaceVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +426,7 @@
 		};
 		57483A1220E615FF009EF388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445FAA844203301F656AF69E /* Pods-GeoPlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +445,7 @@
 		};
 		57483A1320E615FF009EF388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A99D12E8DB2132AEEE48C7 /* Pods-GeoPlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
